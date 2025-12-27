@@ -1,0 +1,172 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    background: url(eletricista1\ \(1\).png) no-repeat center 50%;
+    background-size: cover;
+    height: 500px;
+    padding: 30px;
+}
+
+/* TEXTO DO HEADER */
+.fontedes {
+    font-size: 4.5rem;
+    color: #ffffff;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+}
+
+/* MENU */
+.menu {
+    background-color: #222;
+}
+
+.menu ul {
+    list-style: none;
+    width: 300px;
+    margin: auto;
+    padding: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #e80505;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.setecinco {
+    float: left;
+    width: 70%;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+/* ASIDE */
+.aside1 {
+    float: right;
+    width: 25%;
+    padding-top: 60px;
+}
+
+/* IMAGENS CENTRALIZADAS */
+.centraliza_img {
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+}
+
+/* BANNER */
+.fundo_preto {
+    background-color: #111;
+    clear: both;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centraliza horizontalmente o conteúdo */
+    text-align: center; /* centraliza o texto dentro do h1 */
+}
+
+
+.texto_banner h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+/* SERVIÇOS */
+.centraliza_div {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espaço entre os quadradinhos */
+    margin: 40px 0;
+}
+
+.servicos {
+    background-color: #e88a0b;
+    color: white;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    flex-shrink: 0; /* impede de encolher */
+}
+
+/* TÍTULOS DE SEÇÃO */
+.titulo_secao {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* CLIENTES */
+.clientes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; /* se a tela for pequena, eles quebram para a próxima linha */
+}
+/* CLIENTES */
+.clientes img {
+    width: 250px;      /* largura maior */
+    height: auto;      /* altura proporcional à largura */
+    margin: 15px;      /* espaço entre as imagens */
+    display: inline-block;
+}
+
+
+/* CONTATO */
+.contato {
+    display: flex;
+    padding: 30px;
+}
+
+th {
+    text-align: left;
+    padding-right: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 6px;
+}
+
+input[type=submit] {
+    background-color: #f3ac13;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
